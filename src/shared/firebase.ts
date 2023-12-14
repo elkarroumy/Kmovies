@@ -3,12 +3,14 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_D0MAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+   apiKey: "AIzaSyCV9w-7kx1yc3cMhLUaW_XfOQhIcW3624A",
+  authDomain: "pig-2-new-code.firebaseapp.com",
+  databaseURL: "https://pig-2-new-code.firebaseio.com",
+  projectId: "pig-2-new-code",
+  storageBucket: "pig-2-new-code.appspot.com",
+  messagingSenderId: "115464168485",
+  appId: "1:115464168485:web:866e514fc90851b9af0bcc",
+  measurementId: "G-8L435JEBFL"
 };
 
 const app = initializeApp(firebaseConfig);
